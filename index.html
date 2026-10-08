@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valuación, Economía y Territorio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="nav">
+  
+  <div class="nav-interna">
+  <img src="logo.png" alt="Valuación, Economía & Territorio" class="logo">
+    <div class="marca">Valuación, Economía y Territorio</div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#observatorio">Observatorio</a>
+      <a href="#biblioteca">Biblioteca</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="contenido">
+    <div class="etiqueta">Valuación, Economía y Territorio </div>
+    <h1>LGAC</h1>
+    <p>Una Línea de Generación y Aplicación del Conocimiento (LGAC) es el eje temático y metodológico que organiza, orienta y da continuidad al trabajo de investigación dentro de una institución académica o programa de posgrado. Su propósito principal es conectar la generación de nuevos saberes teóricos o científicos con su aplicación práctica para resolver problemas reales del entorno. Al funcionar como un marco de referencia común, la LGAC permite que tanto profesores como estudiantes sumen esfuerzos en proyectos con un rumbo claro, asegurando que la investigación no se disperse y que tenga un impacto directo en la sociedad, la ciencia o la economía.</p>
+    <h1>Objetivo</h1>
+    <p>Consolidar un espacio de investigación multidisciplinaria que documente, analice y difunda los trabajos académicos desarrollados por nuestro profesorado, facilitando su consulta y descarga para la comunidad interesada.</p>
+  </div>
+</section>
+
+<!-- EQUIPO: nombres y grados reales; foto = placeholder con iniciales,
+     reemplázalo por la foto real autorizada de cada docente (carpeta /img/) -->
+<section id="equipo">
+  <div class="contenido">
+    <h2>Docentes</h2>
+    <p>Cuerpo académico de la Facultad de Economía y Relaciones Internacionales, UABC.</p>
+    <div class="rejilla" id="rejilla-equipo"></div>
+  </div>
+</section>
+
+<section id="observatorio">
+  <div class="contenido">
+    <h2>Observatorio</h2>
+    <p>Panel geográfico con los sitios y proyectos de investigación. Filtra por categoría o
+    selecciona un punto de la lista para ubicarlo en el mapa.</p>
+    <div class="observatorio-layout">
+      <div class="mapa-lista">
+        <div class="filtros" id="filtros"></div>
+        <div id="lista-lugares"></div>
+      </div>
+      <div id="map"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BIBLIOTECA: misma estructura de categorías que el sitio real.
+     Los títulos son referencias bibliográficas (solo el nombre de la obra). -->
+<section id="biblioteca">
+  <div class="contenido">
+    <h2>Biblioteca de Consultoría</h2>
+    <p>Colección técnica especializada en economía aplicada y ordenamiento territorial.</p>
+    <div id="biblioteca-categorias"></div>
+
+    <h3 style="margin-top:40px">Preguntas frecuentes</h3>
+    <div id="biblioteca-faq"></div>
+  </div>
+</section>
+
+<section id="vinculacion">
+  <div class="contenido">
+    <h2>Vinculación de Investigación</h2>
+    <div class="pildoras">
+      <span>REDISIG — Red Iberoamericana de Sistemas de Información Geográfica</span>
+      <span>RETESyG — Red Internacional de Territorios, Sustentabilidad y Gobernanza</span>
+      <span>RIDOT — Red Iberoamericana de Observación Territorial</span>
+    </div>
+  </div>
+</section>
+
+<footer id="contacto">
+  <div class="contenido">
+    <h2>Contáctanos</h2>
+    <div class="contacto-datos">
+      <div><strong>Ubicación</strong>Tijuana, Baja California — UABC</div>
+      <div><strong>Teléfono</strong>+52 55 1234 5678</div>
+      <div><strong>Email</strong>contacto@valuacioneconomia.com</div>
+    </div>
+    <div class="copyright">© 2026 Valuación, Economía y Territorio. Todos los derechos reservados.</div>
+  </div>
+</footer>
+
+<script src="js/sitio.js"></script>
+<script src="js/mapa.js"></script>
+</body>
+</html>
