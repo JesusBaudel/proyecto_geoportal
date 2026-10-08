@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "nombre": "Sede FEyRI",
+        "categoria": "Institucional",
+        "descripcion": "Facultad de Economía y Relaciones Internacionales, UABC."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0202, 32.5251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "nombre": "Zona de estudio urbano",
+        "categoria": "Proyecto",
+        "descripcion": "Área de análisis de crecimiento urbano y movilidad."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0138, 32.5027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "nombre": "Estudio de valuación industrial",
+        "categoria": "Proyecto",
+        "descripcion": "Zona industrial evaluada en estudio de valuación."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-116.9660, 32.5445]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "nombre": "Convenio institucional",
+        "categoria": "Institucional",
+        "descripcion": "Sede de colaboración con institución vinculada."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.0382, 32.5149]
+      }
+    }
+  ]
+}
